@@ -36,6 +36,14 @@ h2 {
   overflow: auto;
 }
 
+.bottom_margin {
+  margin-bottom: 25px;
+}
+
+.max_height {
+  max-height: 300px;
+}
+
 /** Share Box **/
 .icon_size {
   height: 75px;
@@ -44,12 +52,31 @@ h2 {
 
 /** Form Box **/
 
+/** Portfolio Content Styling **/
+.title {
+  position: absolute;
+  bottom: 20px;
+  width: 300px;
+  text-align: center;
+  background: #7a7a7a;
+  opacity: .95;
+  color: #3f3f3f;
+  padding: 10px 0px 10px 0px;
+}
+
 /** Footer **/
 .footer {
   position: absolute;
-  bottom: 0;
+  bottom: 0px;
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
   line-height: 60px; /* Vertically center the text there */
+  margin-top: 20px;
+}
+
+/** styling below pulls the footer down further for the portfolio page only
+Can't figure out how to get it to flow down naturally :-(  **/
+#portfolio_footer {
+  bottom: -300px;
 }

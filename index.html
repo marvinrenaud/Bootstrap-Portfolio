@@ -1,3 +1,11 @@
+<!-- Questions for instructors/TAs
+**** 1) I can't seem to get the footer to flow to the bottom naturally.
+****    I would appreciate some help understanding that. Have tried a bunch of tricks. No dice.
+**** 2) It is not clear to me how/why the content in my main body is centered...
+****    ...but my header is flush to the sides. Can't find anything in the styling making that happen.
+**** -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,6 +20,7 @@
 </head>
 
 <body>
+  <!-- Header and nav bar -->
     <div class="container">
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
@@ -37,9 +46,11 @@
         </nav>
 
     </div>
+    <!-- Main body of the page -->
     <div class="container">
         <div class="col-xs-6 col-md-8">
             <div class="top_margin main_content_box well">
+              <!-- The about me section of the main -->
                 <h2>About Me</h2>
                 <img id="huey_image" src="images/huey_freeman_rebel.png" alt="Huey image" />
                 <p>
@@ -53,6 +64,7 @@
                 </p>
             </div>
         </div>
+        <!-- The contact section of the page -->
         <div class="col-xs-6 col-md-4">
             <div class="top_margin well">
                 <h2>Connect With Me</h2>
@@ -68,8 +80,8 @@
 
             </div>
         </div>
-
     </div>
+    <!-- Footer section -->
     <footer class="footer">
       <div class="container">
         <span class="text-muted">&#169; Copyright 2017 Huey Freeman</span>
